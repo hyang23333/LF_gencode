@@ -6,8 +6,8 @@ static const inst_t s1_w0[] = {
     {.inst='n', .op=3}, // Notify semaphore 3.
     {.inst='e', .op=2}, // Execute reaction_0 of ThreadedThreaded.t.
     {.inst='e', .op=4}, // Execute reaction_0 of ThreadedThreaded.t.
-    {.inst='w', .op=1}, // Wait for semaphore 1.
     {.inst='w', .op=0}, // Wait for semaphore 0.
+    {.inst='w', .op=1}, // Wait for semaphore 1.
     {.inst='e', .op=5}, // Execute reaction_0 of ThreadedThreaded.b.
     {.inst='s', .op=0}
 };

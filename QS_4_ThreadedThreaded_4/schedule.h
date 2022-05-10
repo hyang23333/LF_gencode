@@ -3,8 +3,8 @@
 static const inst_t s1_w0[] = {
     {.inst='e', .op=0}, // Execute reaction_0 of ThreadedThreaded.a.
     {.inst='n', .op=1}, // Notify semaphore 1.
-    {.inst='n', .op=5}, // Notify semaphore 5.
     {.inst='n', .op=0}, // Notify semaphore 0.
+    {.inst='n', .op=5}, // Notify semaphore 5.
     {.inst='e', .op=4}, // Execute reaction_0 of ThreadedThreaded.t.
     {.inst='n', .op=4}, // Notify semaphore 4.
     {.inst='s', .op=0}
@@ -18,8 +18,8 @@ static const inst_t s1_w1[] = {
 static const inst_t s1_w2[] = {
     {.inst='w', .op=1}, // Wait for semaphore 1.
     {.inst='e', .op=2}, // Execute reaction_0 of ThreadedThreaded.t.
-    {.inst='w', .op=4}, // Wait for semaphore 4.
     {.inst='w', .op=2}, // Wait for semaphore 2.
+    {.inst='w', .op=4}, // Wait for semaphore 4.
     {.inst='w', .op=3}, // Wait for semaphore 3.
     {.inst='e', .op=5}, // Execute reaction_0 of ThreadedThreaded.b.
     {.inst='s', .op=0}

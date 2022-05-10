@@ -47,7 +47,7 @@ CMakeFiles/ThreadedThreaded.dir/core/platform/lf_macos_support.c.o
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/platform/lf_unix_clock_support.c
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/platform/lf_unix_syscall_support.c
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/platform/lf_windows_support.h
-CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.o
+CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.o
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/modal_models/modes.h
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/platform.h
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/platform/lf_C11_threads_support.h
@@ -59,7 +59,7 @@ CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.o
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/reactor.h
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/tag.h
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler.h
- /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_NP.c
+ /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_QS.c
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_QS.h
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_instance.h
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_sync_tag_advance.c
@@ -67,6 +67,7 @@ CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.o
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/utils/pqueue.h
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/utils/semaphore.h
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/utils/util.h
+ /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/schedule.h
 CMakeFiles/ThreadedThreaded.dir/core/utils/semaphore.c.o
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/platform.h
  /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/platform/lf_C11_threads_support.h

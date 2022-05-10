@@ -269,32 +269,32 @@ core/platform/lf_macos_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadedThreaded.dir/build.make CMakeFiles/ThreadedThreaded.dir/core/platform/lf_macos_support.c.s
 .PHONY : core/platform/lf_macos_support.c.s
 
-core/threaded/scheduler_NP.o: core/threaded/scheduler_NP.c.o
+core/threaded/scheduler_QS.o: core/threaded/scheduler_QS.c.o
 
-.PHONY : core/threaded/scheduler_NP.o
+.PHONY : core/threaded/scheduler_QS.o
 
 # target to build an object file
-core/threaded/scheduler_NP.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadedThreaded.dir/build.make CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.o
-.PHONY : core/threaded/scheduler_NP.c.o
+core/threaded/scheduler_QS.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadedThreaded.dir/build.make CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.o
+.PHONY : core/threaded/scheduler_QS.c.o
 
-core/threaded/scheduler_NP.i: core/threaded/scheduler_NP.c.i
+core/threaded/scheduler_QS.i: core/threaded/scheduler_QS.c.i
 
-.PHONY : core/threaded/scheduler_NP.i
+.PHONY : core/threaded/scheduler_QS.i
 
 # target to preprocess a source file
-core/threaded/scheduler_NP.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadedThreaded.dir/build.make CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.i
-.PHONY : core/threaded/scheduler_NP.c.i
+core/threaded/scheduler_QS.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadedThreaded.dir/build.make CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.i
+.PHONY : core/threaded/scheduler_QS.c.i
 
-core/threaded/scheduler_NP.s: core/threaded/scheduler_NP.c.s
+core/threaded/scheduler_QS.s: core/threaded/scheduler_QS.c.s
 
-.PHONY : core/threaded/scheduler_NP.s
+.PHONY : core/threaded/scheduler_QS.s
 
 # target to generate assembly for a file
-core/threaded/scheduler_NP.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadedThreaded.dir/build.make CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.s
-.PHONY : core/threaded/scheduler_NP.c.s
+core/threaded/scheduler_QS.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreadedThreaded.dir/build.make CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.s
+.PHONY : core/threaded/scheduler_QS.c.s
 
 core/utils/semaphore.o: core/utils/semaphore.c.o
 
@@ -399,9 +399,9 @@ help:
 	@echo "... core/platform/lf_macos_support.o"
 	@echo "... core/platform/lf_macos_support.i"
 	@echo "... core/platform/lf_macos_support.s"
-	@echo "... core/threaded/scheduler_NP.o"
-	@echo "... core/threaded/scheduler_NP.i"
-	@echo "... core/threaded/scheduler_NP.s"
+	@echo "... core/threaded/scheduler_QS.o"
+	@echo "... core/threaded/scheduler_QS.i"
+	@echo "... core/threaded/scheduler_QS.s"
 	@echo "... core/utils/semaphore.o"
 	@echo "... core/utils/semaphore.i"
 	@echo "... core/utils/semaphore.s"

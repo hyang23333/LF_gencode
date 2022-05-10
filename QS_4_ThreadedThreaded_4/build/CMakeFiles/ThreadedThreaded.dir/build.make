@@ -141,18 +141,18 @@ CMakeFiles/ThreadedThreaded.dir/core/mixed_radix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ThreadedThreaded.dir/core/mixed_radix.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/mixed_radix.c -o CMakeFiles/ThreadedThreaded.dir/core/mixed_radix.c.s
 
-CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.o: CMakeFiles/ThreadedThreaded.dir/flags.make
-CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.o: ../core/threaded/scheduler_NP.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.o -c /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_NP.c
+CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.o: CMakeFiles/ThreadedThreaded.dir/flags.make
+CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.o: ../core/threaded/scheduler_QS.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.o -c /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_QS.c
 
-CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_NP.c > CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.i
+CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_QS.c > CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.i
 
-CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_NP.c -o CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.s
+CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_QS.c -o CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.s
 
 CMakeFiles/ThreadedThreaded.dir/core/utils/semaphore.c.o: CMakeFiles/ThreadedThreaded.dir/flags.make
 CMakeFiles/ThreadedThreaded.dir/core/utils/semaphore.c.o: ../core/utils/semaphore.c
@@ -174,7 +174,7 @@ ThreadedThreaded_OBJECTS = \
 "CMakeFiles/ThreadedThreaded.dir/ctarget/schedule.c.o" \
 "CMakeFiles/ThreadedThreaded.dir/ctarget/util.c.o" \
 "CMakeFiles/ThreadedThreaded.dir/core/mixed_radix.c.o" \
-"CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.o" \
+"CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.o" \
 "CMakeFiles/ThreadedThreaded.dir/core/utils/semaphore.c.o"
 
 # External object files for target ThreadedThreaded
@@ -185,7 +185,7 @@ ThreadedThreaded: CMakeFiles/ThreadedThreaded.dir/core/platform/lf_macos_support
 ThreadedThreaded: CMakeFiles/ThreadedThreaded.dir/ctarget/schedule.c.o
 ThreadedThreaded: CMakeFiles/ThreadedThreaded.dir/ctarget/util.c.o
 ThreadedThreaded: CMakeFiles/ThreadedThreaded.dir/core/mixed_radix.c.o
-ThreadedThreaded: CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.o
+ThreadedThreaded: CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.o
 ThreadedThreaded: CMakeFiles/ThreadedThreaded.dir/core/utils/semaphore.c.o
 ThreadedThreaded: CMakeFiles/ThreadedThreaded.dir/build.make
 ThreadedThreaded: CMakeFiles/ThreadedThreaded.dir/link.txt

@@ -24,17 +24,11 @@ typedef struct {
 typedef struct {
     struct self_base_t base;
     
-    #line 17 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     int s;
-    #line 16 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     source_out_t _lf_out;
-    #line 16 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     int _lf_out_width;
-    #line 18 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     reaction_t _lf__reaction_0;
-    #line 15 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     trigger_t _lf__t;
-    #line 15 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     reaction_t* _lf__t_reactions[1];
 } source_self_t;
 #include "ctarget/set.h"
@@ -44,7 +38,6 @@ void sourcereaction_function_0(void* instance_args) {
     source_self_t* self = (source_self_t*)instance_args;
     source_out_t* out = &self->_lf_out;
     #pragma GCC diagnostic pop
-    #line 19 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     lf_set(out, self->s);
     self->s++;
         
@@ -52,28 +45,16 @@ void sourcereaction_function_0(void* instance_args) {
 #include "ctarget/set_undef.h"
 source_self_t* new_Source() {
     source_self_t* self = (source_self_t*)_lf_new_reactor(sizeof(source_self_t));
-    #line 18 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.number = 0;
-    #line 18 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.function = sourcereaction_function_0;
-    #line 18 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.self = self;
-    #line 18 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.deadline_violation_handler = NULL;
-    #line 18 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.STP_handler = NULL;
-    #line 18 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.name = "?";
-    #line 18 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.mode = NULL;
-    #line 15 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__t.last = NULL;
-    #line 15 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
-    #line 15 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__t_reactions[0] = &self->_lf__reaction_0;
-    #line 15 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__t.reactions = &self->_lf__t_reactions[0];
-    #line 15 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__t.number_of_reactions = 1;
     self->_lf__t.is_timer = true;
     return self;
@@ -103,25 +84,15 @@ typedef struct {
     struct self_base_t base;
     
     
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     taketime_in_t* _lf_in;
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     // width of -2 indicates that it is not a multiport.
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     int _lf_in_width;
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     // Default input (in case it does not get connected)
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     taketime_in_t _lf_default__in;
-    #line 25 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     taketime_out_t _lf_out;
-    #line 25 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     int _lf_out_width;
-    #line 26 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     reaction_t _lf__reaction_0;
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     trigger_t _lf__in;
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     reaction_t* _lf__in_reactions[1];
 } taketime_self_t;
 #include "ctarget/set.h"
@@ -133,7 +104,6 @@ void taketimereaction_function_0(void* instance_args) {
     int in_width = self->_lf_in_width;
     taketime_out_t* out = &self->_lf_out;
     #pragma GCC diagnostic pop
-    #line 27 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     struct timespec sleep_time = {(time_t) 0, (long)200000000};
     struct timespec remaining_time;
     nanosleep(&sleep_time, &remaining_time);
@@ -147,32 +117,18 @@ void taketimereaction_function_0(void* instance_args) {
 #include "ctarget/set_undef.h"
 taketime_self_t* new_TakeTime() {
     taketime_self_t* self = (taketime_self_t*)_lf_new_reactor(sizeof(taketime_self_t));
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     // Set input by default to an always absent default input.
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf_in = &self->_lf_default__in;
-    #line 26 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.number = 0;
-    #line 26 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.function = taketimereaction_function_0;
-    #line 26 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.self = self;
-    #line 26 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.deadline_violation_handler = NULL;
-    #line 26 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.STP_handler = NULL;
-    #line 26 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.name = "?";
-    #line 26 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.mode = NULL;
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__in.last = NULL;
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__in_reactions[0] = &self->_lf__reaction_0;
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__in.reactions = &self->_lf__in_reactions[0];
-    #line 24 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__in.number_of_reactions = 1;
     self->_lf__in.element_size = sizeof(int);
     return self;
@@ -191,25 +147,15 @@ typedef struct {
 } destination_in_t;
 typedef struct {
     struct self_base_t base;
-    #line 37 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     int width;
-    #line 38 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     int s;
-    #line 39 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     // Multiport input array will be malloc'd later.
-    #line 39 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     destination_in_t** _lf_in;
-    #line 39 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     int _lf_in_width;
-    #line 39 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     // Default input (in case it does not get connected)
-    #line 39 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     destination_in_t _lf_default__in;
-    #line 40 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     reaction_t _lf__reaction_0;
-    #line 39 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     trigger_t _lf__in;
-    #line 39 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     reaction_t* _lf__in_reactions[1];
 } destination_self_t;
 #include "ctarget/set.h"
@@ -220,7 +166,6 @@ void destinationreaction_function_0(void* instance_args) {
     destination_in_t** in = self->_lf_in;
     int in_width = self->_lf_in_width;
     #pragma GCC diagnostic pop
-    #line 41 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     int sum = 0;
     for (int i = 0; i < in_width; i++) {
                 sum += in[i]->value;
@@ -236,28 +181,16 @@ void destinationreaction_function_0(void* instance_args) {
 #include "ctarget/set_undef.h"
 destination_self_t* new_Destination() {
     destination_self_t* self = (destination_self_t*)_lf_new_reactor(sizeof(destination_self_t));
-    #line 40 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.number = 0;
-    #line 40 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.function = destinationreaction_function_0;
-    #line 40 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.self = self;
-    #line 40 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.deadline_violation_handler = NULL;
-    #line 40 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.STP_handler = NULL;
-    #line 40 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.name = "?";
-    #line 40 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__reaction_0.mode = NULL;
-    #line 39 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__in.last = NULL;
-    #line 39 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
-    #line 39 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__in_reactions[0] = &self->_lf__reaction_0;
-    #line 39 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__in.reactions = &self->_lf__in_reactions[0];
-    #line 39 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     self->_lf__in.number_of_reactions = 1;
     self->_lf__in.element_size = sizeof(int);
     return self;
@@ -267,7 +200,6 @@ destination_self_t* new_Destination() {
 // =============== START reactor class ThreadedThreaded
 typedef struct {
     struct self_base_t base;
-    #line 53 "file:/Users/shaokai/git/lingua-franca/test/C/src/concurrent/ThreadedThreaded.lf"
     int width;
 } threadedthreaded_self_t;
 threadedthreaded_self_t* new_ThreadedThreaded() {
@@ -862,4 +794,3 @@ bool _lf_trigger_shutdown_reactions() {
     return (_lf_shutdown_reactions_size > 0);
 }
 void terminate_execution() {}
-

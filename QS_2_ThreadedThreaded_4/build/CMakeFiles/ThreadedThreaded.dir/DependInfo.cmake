@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/ThreadedThreaded.c" "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/ThreadedThreaded.dir/ThreadedThreaded.c.o"
   "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/mixed_radix.c" "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/ThreadedThreaded.dir/core/mixed_radix.c.o"
   "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/platform/lf_macos_support.c" "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/ThreadedThreaded.dir/core/platform/lf_macos_support.c.o"
-  "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_NP.c" "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_NP.c.o"
+  "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_QS.c" "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/ThreadedThreaded.dir/core/threaded/scheduler_QS.c.o"
   "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/utils/semaphore.c" "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/ThreadedThreaded.dir/core/utils/semaphore.c.o"
   "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/ctarget/schedule.c" "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/ThreadedThreaded.dir/ctarget/schedule.c.o"
   "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/ctarget/util.c" "/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/ThreadedThreaded.dir/ctarget/util.c.o"
@@ -18,7 +18,8 @@ set(CMAKE_C_COMPILER_ID "AppleClang")
 set(CMAKE_TARGET_DEFINITIONS_C
   "LINGUA_FRANCA_TRACE="
   "LOG_LEVEL=2"
-  "NUMBER_OF_WORKERS=3"
+  "NUMBER_OF_WORKERS=2"
+  "SCHEDULER_QS"
   )
 
 # The include file search paths:

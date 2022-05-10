@@ -218,7 +218,7 @@ signal.h
 ../reactor.h
 /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/reactor.h
 
-/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_NP.c
+/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_QS.c
 assert.h
 -
 ../platform.h
@@ -231,6 +231,8 @@ scheduler_instance.h
 /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_instance.h
 scheduler_sync_tag_advance.c
 /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_sync_tag_advance.c
+../../schedule.h
+/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/schedule.h
 
 /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/threaded/scheduler_QS.h
 stdint.h
@@ -337,4 +339,6 @@ stdlib.h
 /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/ctarget/util.h
 ../core/reactor.h
 /Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/core/reactor.h
+
+/Users/shaokai/git/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/schedule.h
 
