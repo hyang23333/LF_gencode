@@ -103,9 +103,9 @@ void taketimereaction_function_0(void* instance_args) {
     int in_width = self->_lf_in_width;
     taketime_out_t* out = &self->_lf_out;
     #pragma GCC diagnostic pop
-    // struct timespec sleep_time = {(time_t) 0, (long)200000000};
-    // struct timespec remaining_time;
-    // nanosleep(&sleep_time, &remaining_time);
+    struct timespec sleep_time = {(time_t) 0, (long)200000000};
+    struct timespec remaining_time;
+    nanosleep(&sleep_time, &remaining_time);
     int offset = 0;
     for (int i = 0; i < 100000000; i++) {
         offset++;
