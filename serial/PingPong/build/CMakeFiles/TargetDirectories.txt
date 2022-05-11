@@ -1,0 +1,7 @@
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/PingPong/build/CMakeFiles/PingPong.dir
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/PingPong/build/CMakeFiles/edit_cache.dir
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/PingPong/build/CMakeFiles/rebuild_cache.dir
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/PingPong/build/CMakeFiles/list_install_components.dir
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/PingPong/build/CMakeFiles/install.dir
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/PingPong/build/CMakeFiles/install/local.dir
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/PingPong/build/CMakeFiles/install/strip.dir

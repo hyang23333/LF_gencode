@@ -1,0 +1,7 @@
+/Users/yanghuang/Projects/cs267/benchmarks-lingua-franca/C/Savina/src-gen/micro/Big/build/CMakeFiles/Big.dir
+/Users/yanghuang/Projects/cs267/benchmarks-lingua-franca/C/Savina/src-gen/micro/Big/build/CMakeFiles/edit_cache.dir
+/Users/yanghuang/Projects/cs267/benchmarks-lingua-franca/C/Savina/src-gen/micro/Big/build/CMakeFiles/rebuild_cache.dir
+/Users/yanghuang/Projects/cs267/benchmarks-lingua-franca/C/Savina/src-gen/micro/Big/build/CMakeFiles/list_install_components.dir
+/Users/yanghuang/Projects/cs267/benchmarks-lingua-franca/C/Savina/src-gen/micro/Big/build/CMakeFiles/install.dir
+/Users/yanghuang/Projects/cs267/benchmarks-lingua-franca/C/Savina/src-gen/micro/Big/build/CMakeFiles/install/local.dir
+/Users/yanghuang/Projects/cs267/benchmarks-lingua-franca/C/Savina/src-gen/micro/Big/build/CMakeFiles/install/strip.dir
