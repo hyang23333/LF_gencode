@@ -1,0 +1,7 @@
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/ThreadedThreaded.dir
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/edit_cache.dir
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/rebuild_cache.dir
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/list_install_components.dir
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/install.dir
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/install/local.dir
+/Users/yanghuang/Projects/cs267/lingua-franca/test/C/src-gen/concurrent/ThreadedThreaded/build/CMakeFiles/install/strip.dir
